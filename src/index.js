@@ -25,7 +25,6 @@ db.sync({ force: true })
     .then(() => console.log("Database connected!"));
 
 // Routes
-app.get("/", (req, res) => res.send("Ok"));
 app.use("/api", ApiRoutes);
 
 // Init app

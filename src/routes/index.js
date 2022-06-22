@@ -5,7 +5,7 @@ const router = express.Router();
 const UserController = require("../controllers/UserController");
 const RoleController = require("../controllers/RoleController");
 
-router.route("/", (req, res) => res.send("Home"));
+router.route("/", (req, res) => res.send("NodeJS + MySQL + Sequelize!"));
 // User api
 router.route("/user").get(UserController.index).post(UserController.store);
 router.route("/user/:id").get(UserController.show).patch(UserController.update).delete(UserController.destroy)
