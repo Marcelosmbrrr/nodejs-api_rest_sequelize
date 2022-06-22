@@ -1,1 +1,1 @@
-# nodejs-api_rest
+# Api Rest with NodeJS and Sequelize
