@@ -1,1 +1,2 @@
-# Api Rest with NodeJS and Sequelize
+# About
+This application is a Rest API created with NodeJS, MySQL and Sequelize ORM.
